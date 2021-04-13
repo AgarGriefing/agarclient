@@ -89,12 +89,14 @@
   );
 }
 
-.subcontent button {
+.subcontent a {
   width: 25%;
   height: 8.5%;
   font-size: 1.3vw;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin-bottom: 15%;
+  text-decoration: none;
+  color: white;
 }
 
 .subcontent h1 {
