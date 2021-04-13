@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bg {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  grid-template-rows: 50% 50%;
+  z-index: 1;
+  top: 0;
+}
+
+.div1 {
+  width: 100%;
+  height: 100%;
+  background: url("./caballo.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.div2 {
+  width: 100%;
+  height: 100%;
+  background: url("./caballo2.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.div3 {
+  width: 100%;
+  height: 100%;
+  background: url("./caballo3.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.div4 {
+  width: 100%;
+  height: 100%;
+  background: url("./caballo4.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.div5 {
+  width: 100%;
+  height: 100%;
+  background: url("./caballo5.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.div6 {
+  width: 100%;
+  height: 100%;
+  background: url("./caballo6.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
+.content {
+  position: absolute;
+  width: 100vw;
+  z-index: 3;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(
+    circle,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+.subcontent {
+  width: 60%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(
+    circle,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0) 50%
+  );
+}
+
+.subcontent button {
+  width: 25%;
+  height: 8.5%;
+  font-size: 1.3vw;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 15%;
+}
+
+.subcontent h1 {
+  color: white;
+  font-size: 10vw;
+}
